@@ -1,4 +1,4 @@
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import {HashRouter as Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import React from 'react';
 import MainLayout from './layouts/MainLayout';
 import Users from './pages/Users';
