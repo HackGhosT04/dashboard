@@ -1,0 +1,47 @@
+.pathways-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f7fa;
+  }
+  
+  .pathways-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pathway-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .pathway-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #2b3d51;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #2b3d51;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
